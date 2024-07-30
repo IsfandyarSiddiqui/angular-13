@@ -13,16 +13,16 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 @NgModule({
-    declarations: [AppComponent],
-    imports: [
-      BrowserModule,
-      BrowserAnimationsModule,
-      FormsModule,
-      MatButtonModule, MatToolbarModule, MatIconModule, MatBadgeModule,
-      MatTableModule, MatCheckboxModule, MatFormFieldModule, MatInputModule,
-      MatSlideToggleModule
-    ],
-    providers: [],
-    bootstrap: [AppComponent]
+	declarations: [AppComponent],
+	imports: [
+		BrowserModule,
+		BrowserAnimationsModule,
+		FormsModule,
+		MatButtonModule, MatToolbarModule, MatIconModule, MatBadgeModule,
+		MatTableModule, MatCheckboxModule, MatFormFieldModule, MatInputModule,
+		MatSlideToggleModule
+	],
+	providers: [],
+	bootstrap: [AppComponent]
   })
   export class AppModule { }
